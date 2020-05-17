@@ -8,7 +8,7 @@
 export default {
   dev: {
     '/api/': {
-      target: 'http://localhost:8080',
+      target: 'http://118.31.46.174:8080',
       changeOrigin: true,
       pathRewrite: {
         '^': '',
@@ -17,7 +17,7 @@ export default {
   },
   test: {
     '/api/': {
-      target: 'http://localhost:8080',
+      target: 'http://118.31.46.174:8080',
       changeOrigin: true,
       pathRewrite: {
         '^': '',
@@ -26,7 +26,7 @@ export default {
   },
   pre: {
     '/api/': {
-      target: 'http://localhost:8080',
+      target: 'http://118.31.46.174:8080',
       changeOrigin: true,
       pathRewrite: {
         '^': '',
